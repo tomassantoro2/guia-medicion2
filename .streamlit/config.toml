@@ -1,0 +1,13 @@
+# Aligns with the warm “mid” editorial look (not white). Full texture/CSS in measurement_guide/ui_theme.py.
+# Toggle “Dark theme” in-app further dims the UI without editing this file.
+
+[theme]
+base = "dark"
+primaryColor = "#d97852"
+backgroundColor = "#2a2624"
+secondaryBackgroundColor = "#3d3834"
+textColor = "#f4eee8"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"

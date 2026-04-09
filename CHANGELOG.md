@@ -2,6 +2,21 @@
 
 Registro de ajustes relevantes al generador de guía de medición (`generador_medicion.py` y exportación Excel).
 
+## 2026-04-09
+
+### Interfaz (Streamlit)
+
+- **Pasos numerados** en la Home (1–4) y en **Guide & export** (1–2), con bloques `st.container(border=True)` y estilos en `measurement_guide/ui_theme.py` (tema editorial **mid**: fondo cálido, textura SVG, acentos terracota; opción **Dark theme** vía interruptor en sesión).
+- **`.streamlit/config.toml`**: colores alineados al tema mid, `toolbarMode = minimal`, `initial_sidebar_state="collapsed"` en Home y página de exportación.
+- **Event setup**: el campo **GA4 event name (documentation column)** es el primero del paso 2; **Context** queda solo con URL, entorno y notas.
+- **MTP**: tabla con `st.dataframe` (`selection_mode="single-row"`, `on_select="rerun"`); paginación bajo la tabla; limpieza ampliada de claves de sesión al añadir un evento (incl. `mtp_*` / `mtp_catalog`).
+- Tras **Add event to guide**, comportamiento **único** para MTP, GA4 y Custom: reinicio de campos del evento y script de foco/scroll al primer campo del paso 2 (`render_new_event_start_focus_if_needed`).
+- **`requirements.txt`**: `streamlit>=1.35.0`.
+
+### Documentación
+
+- **README**: descripción actualizada del flujo, tema, ejecución local y tabla de archivos.
+
 ## 2026-04-08
 
 ### Interfaz (Streamlit)
