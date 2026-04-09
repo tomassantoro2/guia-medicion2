@@ -1,0 +1,58 @@
+{
+  "templates": [
+    {
+      "id": "generate_lead",
+      "ga4_event_name": "generate_lead",
+      "description": "Lead / form submission (generic)",
+      "dl": {
+        "event": "uaevent",
+        "event_name": "generate_lead",
+        "eventCategory": "lead",
+        "eventAction": "submit"
+      }
+    },
+    {
+      "id": "sign_up",
+      "ga4_event_name": "sign_up",
+      "description": "Newsletter / account sign-up",
+      "dl": {
+        "event": "uaevent",
+        "event_name": "sign_up",
+        "eventCategory": "engagement",
+        "eventAction": "sign_up"
+      }
+    },
+    {
+      "id": "purchase",
+      "ga4_event_name": "purchase",
+      "description": "Enhanced ecommerce — purchase (simplified dataLayer)",
+      "dl": {
+        "event": "uaevent",
+        "event_name": "purchase",
+        "ecommerce": "purchase"
+      }
+    },
+    {
+      "id": "view_item",
+      "ga4_event_name": "view_item",
+      "description": "Product or content detail view",
+      "dl": {
+        "event": "uaevent",
+        "event_name": "view_item",
+        "eventCategory": "ecommerce",
+        "eventAction": "view"
+      }
+    },
+    {
+      "id": "select_promotion",
+      "ga4_event_name": "select_promotion",
+      "description": "Promotion / banner click",
+      "dl": {
+        "event": "uaevent",
+        "event_name": "select_promotion",
+        "eventCategory": "promotion",
+        "eventAction": "click"
+      }
+    }
+  ]
+}

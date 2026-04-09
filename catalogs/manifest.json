@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "ga4_templates_file": "ga4_recommended.json",
+  "catalogs": [
+    {
+      "id": "mtp_default",
+      "label": "MTP catalog (default)",
+      "type": "mtp",
+      "file": "mtp_events.json"
+    }
+  ]
+}

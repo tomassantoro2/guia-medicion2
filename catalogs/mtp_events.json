@@ -1,0 +1,203 @@
+[
+  {
+    "event_name": "main_slider_button_click",
+    "description": "Event : Main Carousel (Slider) - Navigation",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "slider",
+      "eventAction": "$clickAction",
+      "eventLabel": "$position::$sliderTitle",
+      "event_name": "main_slider_button_click",
+      "click_action": "$clickAction",
+      "cta_name": "$slideTitle",
+      "position": "$position"
+    }
+  },
+  {
+    "event_name": "highlight_slider_button_click",
+    "description": "Event : Highlight Carousel (Slider) - Navigation",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "slider",
+      "eventAction": "$clickAction",
+      "eventLabel": "$moduleName",
+      "event_name": "highlight_slider_button_click",
+      "click_action": "$clickAction",
+      "module_name": "$moduleName"
+    }
+  },
+  {
+    "event_name": "header_click",
+    "description": "Event : Header - Navigation",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "header",
+      "eventAction": "select",
+      "eventLabel": "$ctaName",
+      "event_name": "header_click",
+      "cta_name": "$ctaName"
+    }
+  },
+  {
+    "event_name": "menu_click",
+    "description": "Event : Main menu - Navigation",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "main menu navigation",
+      "eventAction": "select::(header|footer|burger menu)",
+      "eventLabel": "$categoryL1::$categoryL2::\n$categoryL3",
+      "event_name": "menu_click",
+      "click_area": "$clickarea",
+      "breadcrumb": "$categoryL1::$categoryL2::\n$categoryL3"
+    }
+  },
+  {
+    "event_name": "burger_menu_click",
+    "description": "Event : Burger menu - Navigation",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "burger menu",
+      "eventAction": "display::menu",
+      "eventLabel": "picto",
+      "event_name": "burger_menu_click"
+    }
+  },
+  {
+    "event_name": "internal_search_click",
+    "description": "Event : Internal search - Navigation",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "internal search",
+      "eventAction": "display",
+      "eventLabel": "$ctaName",
+      "event_name": "internal_search_click"
+    }
+  },
+  {
+    "event_name": "internal_search",
+    "description": "Event : Internal search (Results page) - Navigation",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "internal search",
+      "eventAction": "search::$method",
+      "eventLabel": "$searchKeyword",
+      "event_name": "internal_search",
+      "method": "$method",
+      "search_keyword": "$searchKeyword",
+      "numberResults": "$numberResults"
+    }
+  },
+  {
+    "event_name": "logo_click",
+    "description": "Event : Logo - Navigation",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "main menu navigation",
+      "eventAction": "select",
+      "eventLabel": "logo",
+      "event_name": "logo_click"
+    }
+  },
+  {
+    "event_name": "newsletter_registration",
+    "description": "Event : Registration - Newsletter",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "registration",
+      "eventAction": "newsletter",
+      "eventLabel": "$referral",
+      "event_name": "newsletter_registration",
+      "referral": "$referral"
+    }
+  },
+  {
+    "event_name": "social_interaction",
+    "description": "Event : Share - Content",
+    "dl": {
+      "event": "socialInt",
+      "ecommerce": "undefined",
+      "socialNetwork": "$socialNetwork",
+      "socialAction": "$socialAction",
+      "socialTarget": "$destinationUrl",
+      "event_name": "social_interaction",
+      "social_network": "$socialNetwork",
+      "social_action": "$socialAction"
+    }
+  },
+  {
+    "event_name": "account_registration",
+    "description": "Event : Registration - My Account",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "registration",
+      "eventAction": "account signup::$registrationType",
+      "eventLabel": "$referral",
+      "event_name": "account_registration",
+      "method": "$method",
+      "referral": "$referral"
+    }
+  },
+  {
+    "event_name": "login",
+    "description": "Event : Log in - My Account",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "log in",
+      "eventAction": "social::$method | regular",
+      "eventLabel": "$referral",
+      "event_name": "login",
+      "method": "$method",
+      "referral": "$referral"
+    }
+  },
+  {
+    "event_name": "mini_cart_click",
+    "description": "Event : Mini cart - Cart Page",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "mini cart",
+      "eventAction": "select",
+      "eventLabel": "$ctaName",
+      "event_name": "mini_cart_click",
+      "cta_name": "$ctaName"
+    }
+  },
+  {
+    "event_name": "add_to_wishlist",
+    "description": "Event : Add to favorites - Product Detail Page / My Account/Poduct list Page",
+    "dl": {
+      "event": "uaevent",
+      "ecommerce": "undefined",
+      "eventCategory": "ecommerce",
+      "eventAction": "add to favorites",
+      "eventLabel": "$productName::$productId",
+      "event_name": "add_to_wishlist",
+      "object": "",
+      "array": "",
+      "example : Lait Ultra Nourissant Revitalift Laser x3": "",
+      "example : LP10000": "",
+      "example : 9,95": "",
+      "example : makeup/lips/lipstick": "",
+      "example : blue herbal": "",
+      "example : 30mg": "",
+      "example : 5": "",
+      "example : in stock": "",
+      "example: 92837493847": "",
+      "example: 0": "",
+      "example: present": "",
+      "example : LAN": ""
+    }
+  }
+]
